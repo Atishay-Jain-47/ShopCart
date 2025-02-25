@@ -4,7 +4,7 @@ import {toast} from 'react-hot-toast'
 import {add, remove} from '../redux/slices/CartSlice'
 
 function Products({post}) {
-    console.log("Printing Post")
+    console.log("Printing Post....")
     console.log(post);
 
     const {cart} = useSelector((state) => state);
